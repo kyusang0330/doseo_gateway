@@ -29,6 +29,6 @@ FROM openjdk:17-alpine
 WORKDIR /myapp
 #프로젝트빌드로 생성된 jar파일을 컴파일이미지로 복사
 COPY --from=build /myapp/build/libs/*.jar /myapp/doseo_gateway.jar
-EXPOSE 7072
+EXPOSE 7070
 ENTRYPOINT ["java","-jar","/doseo_gateway.jar"]
 
