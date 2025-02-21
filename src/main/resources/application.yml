@@ -5,13 +5,13 @@ jwt:
   secret: myjwttest
   token-valid-in-millisecond: 60000
 
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      #      defaultZone: http://192.168.0.27:8761/eureka
-      defaultZone: http://127.0.0.1:8761/eureka
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      #      defaultZone: http://192.168.0.27:8761/eureka
+#      defaultZone: http://127.0.0.1:8761/eureka
 spring:
   application:
     name: doseogateway
